@@ -9,8 +9,12 @@ import UIKit
 
 class InformationController: UIViewController {
 
+    @IBOutlet weak var InformationTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.InformationTableView.backgroundColor = .blue
 
         // Do any additional setup after loading the view.
     }

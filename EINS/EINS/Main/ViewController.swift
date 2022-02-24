@@ -9,16 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var middleImage: UIImageView!
     @IBOutlet weak var subDescriptionLabel: UILabel!
     @IBOutlet weak var noticeLabel: UILabel!
     
     @IBOutlet weak var bottomSpace: UIView!
     @IBOutlet weak var addLabel: UILabel!
-    
     @IBOutlet weak var addButton: UIButton!
     
     
-    @IBOutlet weak var middleImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +32,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        springAnimation()
+        bounceAnimation()
     }
 
     func setLabel() {
@@ -65,7 +64,7 @@ class ViewController: UIViewController {
                 
     }
     
-    func springAnimation() {
+    func bounceAnimation() {
         
         UIView.animate(withDuration: 3,
                        delay: 1,

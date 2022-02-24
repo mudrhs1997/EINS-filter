@@ -21,7 +21,7 @@
 		C1A92E2627C71DE900100105 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2527C71DE900100105 /* TabBarController.swift */; };
 		C1A92E2827C7206C00100105 /* BuyingFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2727C7206C00100105 /* BuyingFilterController.swift */; };
 		C1A92E2A27C720D100100105 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2927C720D100100105 /* InformationController.swift */; };
-		C1A92E2D27C7457700100105 /* MainItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2C27C7457700100105 /* MainItemViewController.swift */; };
+		C1A92E3427C7BB6800100105 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3327C7BB6800100105 /* InformationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		C1A92E2527C71DE900100105 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C1A92E2727C7206C00100105 /* BuyingFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingFilterController.swift; sourceTree = "<group>"; };
 		C1A92E2927C720D100100105 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
-		C1A92E2C27C7457700100105 /* MainItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemViewController.swift; sourceTree = "<group>"; };
+		C1A92E3327C7BB6800100105 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,19 +111,17 @@
 		C1A92DF027C7103700100105 /* EINS */ = {
 			isa = PBXGroup;
 			children = (
+				C1A92E2727C7206C00100105 /* BuyingFilterController.swift */,
+				C1A92E3227C7BA9900100105 /* Shop */,
+				C1A92E3127C7BA8100100105 /* Main */,
+				C1A92E3027C7BA6700100105 /* Information */,
 				C1A92DF127C7103700100105 /* AppDelegate.swift */,
 				C1A92DF327C7103700100105 /* SceneDelegate.swift */,
-				C1A92DF527C7103700100105 /* ViewController.swift */,
 				C1A92DF727C7103700100105 /* Main.storyboard */,
 				C1A92DFA27C7103900100105 /* Assets.xcassets */,
 				C1A92DFC27C7103900100105 /* LaunchScreen.storyboard */,
 				C1A92DFF27C7103900100105 /* Info.plist */,
-				C1A92E2127C7126F00100105 /* FilterRegisterController.swift */,
 				C1A92E2327C71A3500100105 /* AboutItemController.swift */,
-				C1A92E2527C71DE900100105 /* TabBarController.swift */,
-				C1A92E2727C7206C00100105 /* BuyingFilterController.swift */,
-				C1A92E2927C720D100100105 /* InformationController.swift */,
-				C1A92E2C27C7457700100105 /* MainItemViewController.swift */,
 			);
 			path = EINS;
 			sourceTree = "<group>";
@@ -143,6 +141,32 @@
 				C1A92E1427C7103900100105 /* EINSUITestsLaunchTests.swift */,
 			);
 			path = EINSUITests;
+			sourceTree = "<group>";
+		};
+		C1A92E3027C7BA6700100105 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				C1A92E2927C720D100100105 /* InformationController.swift */,
+				C1A92E3327C7BB6800100105 /* InformationCell.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		C1A92E3127C7BA8100100105 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C1A92E2527C71DE900100105 /* TabBarController.swift */,
+				C1A92E2127C7126F00100105 /* FilterRegisterController.swift */,
+				C1A92DF527C7103700100105 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C1A92E3227C7BA9900100105 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +302,8 @@
 			files = (
 				C1A92E2A27C720D100100105 /* InformationController.swift in Sources */,
 				C1A92E2227C7126F00100105 /* FilterRegisterController.swift in Sources */,
-				C1A92E2D27C7457700100105 /* MainItemViewController.swift in Sources */,
 				C1A92DF627C7103700100105 /* ViewController.swift in Sources */,
+				C1A92E3427C7BB6800100105 /* InformationCell.swift in Sources */,
 				C1A92E2827C7206C00100105 /* BuyingFilterController.swift in Sources */,
 				C1A92E2427C71A3500100105 /* AboutItemController.swift in Sources */,
 				C1A92E2627C71DE900100105 /* TabBarController.swift in Sources */,

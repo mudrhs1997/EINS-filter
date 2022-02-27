@@ -21,7 +21,9 @@
 		C1A92E2627C71DE900100105 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2527C71DE900100105 /* TabBarController.swift */; };
 		C1A92E2827C7206C00100105 /* BuyingFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2727C7206C00100105 /* BuyingFilterController.swift */; };
 		C1A92E2A27C720D100100105 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2927C720D100100105 /* InformationController.swift */; };
-		C1A92E3427C7BB6800100105 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3327C7BB6800100105 /* InformationCell.swift */; };
+		C1A92E3627C857C300100105 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3527C857C300100105 /* InformationModel.swift */; };
+		C1A92E3927C8641A00100105 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3727C8641A00100105 /* InformationCell.swift */; };
+		C1A92E3A27C8641A00100105 /* InformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A92E3827C8641A00100105 /* InformationCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,9 @@
 		C1A92E2527C71DE900100105 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C1A92E2727C7206C00100105 /* BuyingFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingFilterController.swift; sourceTree = "<group>"; };
 		C1A92E2927C720D100100105 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
-		C1A92E3327C7BB6800100105 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
+		C1A92E3527C857C300100105 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
+		C1A92E3727C8641A00100105 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
+		C1A92E3827C8641A00100105 /* InformationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				C1A92E2927C720D100100105 /* InformationController.swift */,
-				C1A92E3327C7BB6800100105 /* InformationCell.swift */,
+				C1A92E3527C857C300100105 /* InformationModel.swift */,
+				C1A92E3727C8641A00100105 /* InformationCell.swift */,
+				C1A92E3827C8641A00100105 /* InformationCell.xib */,
 			);
 			path = Information;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 			files = (
 				C1A92DFE27C7103900100105 /* LaunchScreen.storyboard in Resources */,
 				C1A92DFB27C7103900100105 /* Assets.xcassets in Resources */,
+				C1A92E3A27C8641A00100105 /* InformationCell.xib in Resources */,
 				C1A92DF927C7103700100105 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,10 +309,11 @@
 			files = (
 				C1A92E2A27C720D100100105 /* InformationController.swift in Sources */,
 				C1A92E2227C7126F00100105 /* FilterRegisterController.swift in Sources */,
+				C1A92E3627C857C300100105 /* InformationModel.swift in Sources */,
 				C1A92DF627C7103700100105 /* ViewController.swift in Sources */,
-				C1A92E3427C7BB6800100105 /* InformationCell.swift in Sources */,
 				C1A92E2827C7206C00100105 /* BuyingFilterController.swift in Sources */,
 				C1A92E2427C71A3500100105 /* AboutItemController.swift in Sources */,
+				C1A92E3927C8641A00100105 /* InformationCell.swift in Sources */,
 				C1A92E2627C71DE900100105 /* TabBarController.swift in Sources */,
 				C1A92DF227C7103700100105 /* AppDelegate.swift in Sources */,
 				C1A92DF427C7103700100105 /* SceneDelegate.swift in Sources */,

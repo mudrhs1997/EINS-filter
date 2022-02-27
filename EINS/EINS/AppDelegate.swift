@@ -15,11 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         //  TabBar Color
-        UITabBar.appearance().backgroundColor = UIColor(displayP3Red: 249 / 255, green: 248 / 255, blue: 253 / 255, alpha: 1)
+        UITabBar.appearance().backgroundColor = .white
         UITabBar.appearance().tintColor = UIColor(displayP3Red: 129 / 255, green: 129 / 255, blue: 242 / 255, alpha: 1)
         
         //  LaunchScreen time
-        Thread.sleep(forTimeInterval: 2.0)
+        Thread.sleep(forTimeInterval: 1.5)
         
         return true
     }

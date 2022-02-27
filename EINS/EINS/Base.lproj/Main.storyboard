@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--홈-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EINS" customModuleProvider="target" sceneMemberID="viewController">
@@ -93,9 +93,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AYW-Fh-odG" secondAttribute="trailing" constant="80" id="wEJ-IK-JJJ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="HomeIconx2" selectedImage="HomeIconx2" id="17f-35-d2w">
-                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-10"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="홈" image="home" selectedImage="home" id="17f-35-d2w"/>
                     <connections>
                         <outlet property="addButton" destination="7PK-M5-6eG" id="5Bc-dZ-pSQ"/>
                         <outlet property="addLabel" destination="B0c-O0-neI" id="QmH-8f-Gno"/>
@@ -109,7 +107,7 @@
             </objects>
             <point key="canvasLocation" x="-46.376811594202906" y="529.6875"/>
         </scene>
-        <!--About Item Controller-->
+        <!--제품-->
         <scene sceneID="IND-bL-twy">
             <objects>
                 <viewController id="1UP-Ke-DR4" customClass="AboutItemController" customModule="EINS" customModuleProvider="target" sceneMemberID="viewController">
@@ -128,15 +126,13 @@
                         <viewLayoutGuide key="safeArea" id="okR-hZ-2RW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Item" selectedImage="Item" id="g9M-7U-a9h">
-                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-10"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="제품" image="info" selectedImage="info" id="g9M-7U-a9h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="24v-E3-H6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="770" y="530"/>
         </scene>
-        <!--Buying Filter Controller-->
+        <!--필터구입-->
         <scene sceneID="XbE-4D-MkO">
             <objects>
                 <viewController id="7Lv-Kn-nKR" customClass="BuyingFilterController" customModule="EINS" customModuleProvider="target" sceneMemberID="viewController">
@@ -146,15 +142,13 @@
                         <viewLayoutGuide key="safeArea" id="hfq-Um-LDV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Shop" selectedImage="Shop" id="f90-1f-mnF">
-                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-10"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="필터구입" image="sale" selectedImage="sale" id="f90-1f-mnF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwi-Wd-mnS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1558" y="530"/>
         </scene>
-        <!--Information Controller-->
+        <!--고객센터-->
         <scene sceneID="toD-Mv-mpz">
             <objects>
                 <viewController id="hWa-ny-lh5" customClass="InformationController" customModule="EINS" customModuleProvider="target" sceneMemberID="viewController">
@@ -163,54 +157,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uoe-UC-9kL">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="194" width="414" height="479"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="I4y-mP-4Gt" customClass="InformationCell" customModule="EINS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I4y-mP-4Gt" id="D9d-Ad-S5D">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keQ-Xp-SCX">
-                                                    <rect key="frame" x="66" y="11" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c9v-eD-leP">
-                                                    <rect key="frame" x="10" y="0.0" width="40" height="43.5"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="40" id="DMZ-6u-jnJ"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="c9v-eD-leP" secondAttribute="bottom" id="Ia3-GF-eCo"/>
-                                                <constraint firstItem="c9v-eD-leP" firstAttribute="top" secondItem="D9d-Ad-S5D" secondAttribute="top" id="Mnh-1l-ZAq"/>
-                                                <constraint firstItem="c9v-eD-leP" firstAttribute="leading" secondItem="D9d-Ad-S5D" secondAttribute="leading" constant="10" id="S3l-ec-akW"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YCb-oR-8Gz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="nXN-gL-s3r"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rt5-fz-OnB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Uoe-UC-9kL" firstAttribute="top" secondItem="rt5-fz-OnB" secondAttribute="top" id="36A-mz-ulJ"/>
-                            <constraint firstItem="rt5-fz-OnB" firstAttribute="bottom" secondItem="Uoe-UC-9kL" secondAttribute="bottom" id="U7H-cj-xla"/>
+                            <constraint firstItem="Uoe-UC-9kL" firstAttribute="top" secondItem="rt5-fz-OnB" secondAttribute="top" constant="150" id="36A-mz-ulJ"/>
+                            <constraint firstItem="YCb-oR-8Gz" firstAttribute="trailing" secondItem="rt5-fz-OnB" secondAttribute="trailing" id="L2m-3i-soD"/>
+                            <constraint firstItem="rt5-fz-OnB" firstAttribute="bottom" secondItem="Uoe-UC-9kL" secondAttribute="bottom" constant="140" id="U7H-cj-xla"/>
+                            <constraint firstItem="YCb-oR-8Gz" firstAttribute="leading" secondItem="rt5-fz-OnB" secondAttribute="leading" id="Uf1-ZC-3ly"/>
                             <constraint firstItem="rt5-fz-OnB" firstAttribute="trailing" secondItem="Uoe-UC-9kL" secondAttribute="trailing" id="hFB-GY-VW4"/>
+                            <constraint firstItem="rt5-fz-OnB" firstAttribute="bottom" secondItem="YCb-oR-8Gz" secondAttribute="bottom" priority="900" constant="769" id="saB-2z-bSB"/>
                             <constraint firstItem="Uoe-UC-9kL" firstAttribute="leading" secondItem="rt5-fz-OnB" secondAttribute="leading" id="u0O-NW-Uyf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="information" selectedImage="information" id="niO-u7-Ayz">
-                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-20"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="고객센터" image="customer" selectedImage="customer" id="niO-u7-Ayz"/>
                     <connections>
-                        <outlet property="InformationTableView" destination="Uoe-UC-9kL" id="w7n-Ng-JVJ"/>
+                        <outlet property="informationTableVIew" destination="Uoe-UC-9kL" id="A9k-6s-hhy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HoB-Li-yYQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -223,6 +194,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vnA-Ii-nkg" customClass="TabBarController" customModule="EINS" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P6F-uM-hhT">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -239,12 +211,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="HomeIconx2" width="50" height="50"/>
-        <image name="Item" width="50" height="50"/>
-        <image name="Shop" width="50" height="50"/>
+        <image name="customer" width="25" height="25"/>
         <image name="exclamationmark.circle" catalog="system" width="128" height="121"/>
-        <image name="information" width="50" height="50"/>
+        <image name="home" width="25" height="25"/>
+        <image name="info" width="25" height="25"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="sale" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

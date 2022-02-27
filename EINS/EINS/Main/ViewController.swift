@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     func bounceAnimation() {
         
         UIView.animate(withDuration: 3,
-                       delay: 1,
+                       delay: 0.5,
                        usingSpringWithDamping: 0.9,
                        initialSpringVelocity: 0.4,
                        options: [.repeat, .curveEaseInOut],

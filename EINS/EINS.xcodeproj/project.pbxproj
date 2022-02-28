@@ -17,13 +17,13 @@
 		C1A92E1327C7103900100105 /* EINSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E1227C7103900100105 /* EINSUITests.swift */; };
 		C1A92E1527C7103900100105 /* EINSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E1427C7103900100105 /* EINSUITestsLaunchTests.swift */; };
 		C1A92E2227C7126F00100105 /* FilterRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2127C7126F00100105 /* FilterRegisterController.swift */; };
-		C1A92E2427C71A3500100105 /* AboutItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2327C71A3500100105 /* AboutItemController.swift */; };
+		C1A92E2427C71A3500100105 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2327C71A3500100105 /* ItemViewController.swift */; };
 		C1A92E2627C71DE900100105 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2527C71DE900100105 /* TabBarController.swift */; };
-		C1A92E2827C7206C00100105 /* BuyingFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2727C7206C00100105 /* BuyingFilterController.swift */; };
+		C1A92E2827C7206C00100105 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2727C7206C00100105 /* ShopViewController.swift */; };
 		C1A92E2A27C720D100100105 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2927C720D100100105 /* InformationController.swift */; };
 		C1A92E3627C857C300100105 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3527C857C300100105 /* InformationModel.swift */; };
 		C1A92E3927C8641A00100105 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3727C8641A00100105 /* InformationCell.swift */; };
-		C1A92E3A27C8641A00100105 /* InformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A92E3827C8641A00100105 /* InformationCell.xib */; };
+		C1A92E4427CBEC2900100105 /* ShopBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E4327CBEC2900100105 /* ShopBlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +58,13 @@
 		C1A92E1227C7103900100105 /* EINSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EINSUITests.swift; sourceTree = "<group>"; };
 		C1A92E1427C7103900100105 /* EINSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EINSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C1A92E2127C7126F00100105 /* FilterRegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRegisterController.swift; sourceTree = "<group>"; };
-		C1A92E2327C71A3500100105 /* AboutItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutItemController.swift; sourceTree = "<group>"; };
+		C1A92E2327C71A3500100105 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		C1A92E2527C71DE900100105 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		C1A92E2727C7206C00100105 /* BuyingFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingFilterController.swift; sourceTree = "<group>"; };
+		C1A92E2727C7206C00100105 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		C1A92E2927C720D100100105 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
 		C1A92E3527C857C300100105 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
 		C1A92E3727C8641A00100105 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
-		C1A92E3827C8641A00100105 /* InformationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationCell.xib; sourceTree = "<group>"; };
+		C1A92E4327CBEC2900100105 /* ShopBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopBlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,6 @@
 		C1A92DF027C7103700100105 /* EINS */ = {
 			isa = PBXGroup;
 			children = (
-				C1A92E2727C7206C00100105 /* BuyingFilterController.swift */,
 				C1A92E3227C7BA9900100105 /* Shop */,
 				C1A92E3127C7BA8100100105 /* Main */,
 				C1A92E3027C7BA6700100105 /* Information */,
@@ -125,7 +124,7 @@
 				C1A92DFA27C7103900100105 /* Assets.xcassets */,
 				C1A92DFC27C7103900100105 /* LaunchScreen.storyboard */,
 				C1A92DFF27C7103900100105 /* Info.plist */,
-				C1A92E2327C71A3500100105 /* AboutItemController.swift */,
+				C1A92E2327C71A3500100105 /* ItemViewController.swift */,
 			);
 			path = EINS;
 			sourceTree = "<group>";
@@ -153,7 +152,6 @@
 				C1A92E2927C720D100100105 /* InformationController.swift */,
 				C1A92E3527C857C300100105 /* InformationModel.swift */,
 				C1A92E3727C8641A00100105 /* InformationCell.swift */,
-				C1A92E3827C8641A00100105 /* InformationCell.xib */,
 			);
 			path = Information;
 			sourceTree = "<group>";
@@ -171,6 +169,8 @@
 		C1A92E3227C7BA9900100105 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				C1A92E2727C7206C00100105 /* ShopViewController.swift */,
+				C1A92E4327CBEC2900100105 /* ShopBlockView.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -281,7 +281,6 @@
 			files = (
 				C1A92DFE27C7103900100105 /* LaunchScreen.storyboard in Resources */,
 				C1A92DFB27C7103900100105 /* Assets.xcassets in Resources */,
-				C1A92E3A27C8641A00100105 /* InformationCell.xib in Resources */,
 				C1A92DF927C7103700100105 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,11 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A92E2A27C720D100100105 /* InformationController.swift in Sources */,
+				C1A92E4427CBEC2900100105 /* ShopBlockView.swift in Sources */,
 				C1A92E2227C7126F00100105 /* FilterRegisterController.swift in Sources */,
 				C1A92E3627C857C300100105 /* InformationModel.swift in Sources */,
 				C1A92DF627C7103700100105 /* ViewController.swift in Sources */,
-				C1A92E2827C7206C00100105 /* BuyingFilterController.swift in Sources */,
-				C1A92E2427C71A3500100105 /* AboutItemController.swift in Sources */,
+				C1A92E2827C7206C00100105 /* ShopViewController.swift in Sources */,
+				C1A92E2427C71A3500100105 /* ItemViewController.swift in Sources */,
 				C1A92E3927C8641A00100105 /* InformationCell.swift in Sources */,
 				C1A92E2627C71DE900100105 /* TabBarController.swift in Sources */,
 				C1A92DF227C7103700100105 /* AppDelegate.swift in Sources */,

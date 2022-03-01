@@ -23,7 +23,6 @@
 		C1A92E2A27C720D100100105 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E2927C720D100100105 /* InformationController.swift */; };
 		C1A92E3627C857C300100105 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3527C857C300100105 /* InformationModel.swift */; };
 		C1A92E3927C8641A00100105 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E3727C8641A00100105 /* InformationCell.swift */; };
-		C1A92E4427CBEC2900100105 /* ShopBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A92E4327CBEC2900100105 /* ShopBlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 		C1A92E2927C720D100100105 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
 		C1A92E3527C857C300100105 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
 		C1A92E3727C8641A00100105 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
-		C1A92E4327CBEC2900100105 /* ShopBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopBlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				C1A92E2727C7206C00100105 /* ShopViewController.swift */,
-				C1A92E4327CBEC2900100105 /* ShopBlockView.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -307,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A92E2A27C720D100100105 /* InformationController.swift in Sources */,
-				C1A92E4427CBEC2900100105 /* ShopBlockView.swift in Sources */,
 				C1A92E2227C7126F00100105 /* FilterRegisterController.swift in Sources */,
 				C1A92E3627C857C300100105 /* InformationModel.swift in Sources */,
 				C1A92DF627C7103700100105 /* ViewController.swift in Sources */,

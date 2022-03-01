@@ -16,6 +16,22 @@ class ShopBlockView: UIView {
     var leftButton = UIButton()
     var rightButton = UIButton()
     
+    override init(frame: CGRect) {
+        super.init(frame: rect)
+        comInit()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+    let rect = CGRect(x: 0, y: 0, width: 200, height: 200)
+    
+    func comInit() {
+        self.backgroundColor = .blue
+    }
+    
 
     /*
     // Only override draw() if you perform custom drawing.

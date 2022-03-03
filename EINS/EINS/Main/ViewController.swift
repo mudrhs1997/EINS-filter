@@ -53,6 +53,8 @@ class ViewController: UIViewController {
         addLabel.font = UIFont.systemFont(ofSize: 28, weight: .bold)
         
         middleImage.tintColor = UIColor(displayP3Red: 129 / 255, green: 129 / 255, blue: 242 / 255, alpha: 1)
+        
+        
     }
     
     func makeBottomSpace() {

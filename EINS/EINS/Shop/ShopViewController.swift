@@ -9,8 +9,6 @@ import UIKit
 
 class ShopViewController: UIViewController {
     
-    
-    
     @IBOutlet weak var blockView: UIView!
     @IBOutlet weak var blockDtailView: UIView!
     
@@ -19,6 +17,7 @@ class ShopViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     
+    @IBOutlet weak var discountPriceLabel: UILabel!
     @IBOutlet weak var leftButton: UIButton!
     @IBOutlet weak var rightButton: UIButton!
     
@@ -39,12 +38,20 @@ class ShopViewController: UIViewController {
         blockDtailView.layer.cornerRadius = 20
         
         titleLabel.text = "GV900 자가 설치세트"
-        titleLabel.font = .systemFont(ofSize: 17, weight: .bold)
+        titleLabel.font = .systemFont(ofSize: 19, weight: .bold)
         titleLabel.textColor = mainColor
         
         descriptionLabel.text = "KC인증 아인스 GV900 고급 직수 인더싱크 정수기 대용량정수필터 자가 설치세트"
         descriptionLabel.font = .systemFont(ofSize: 12, weight: .semibold)
         descriptionLabel.textColor = mainColor
+        
+        priceLabel.text = "185,000"
+        priceLabel.font = .systemFont(ofSize: 15, weight: .bold)
+        priceLabel.textColor = mainColor
+        
+        discountPriceLabel.text = "130,000"
+        discountPriceLabel.font = .systemFont(ofSize: 15, weight: .bold)
+        discountPriceLabel.textColor = mainColor
         
         
         leftButton.tintColor = mainColor

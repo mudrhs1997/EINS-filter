@@ -22,6 +22,7 @@ class ShopViewController: UIViewController {
     @IBOutlet weak var rightButton: UIButton!
     
     let mainColor = UIColor(displayP3Red: 129 / 255, green: 129 / 255, blue: 242 / 255, alpha: 1)
+    let mainOpacityColor = UIColor(displayP3Red: 129 / 255, green: 129 / 255, blue: 242 / 255, alpha: 0.6)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,40 +32,52 @@ class ShopViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
     func makeBlock() {
         
+        
         blockDtailView.layer.borderWidth = 3
-        blockDtailView.layer.borderColor = mainColor.cgColor
+        blockDtailView.layer.borderColor = mainOpacityColor.cgColor
         blockDtailView.layer.cornerRadius = 20
+        blockDtailView.layer.opacity = 1
         
         titleLabel.text = "GV900 자가 설치세트"
-        titleLabel.font = .systemFont(ofSize: 19, weight: .bold)
+        titleLabel.font = .systemFont(ofSize: 19, weight: .heavy)
         titleLabel.textColor = mainColor
         
-        descriptionLabel.text = "KC인증 아인스 GV900 고급 직수 인더싱크 정수기 대용량정수필터 자가 설치세트"
-        descriptionLabel.font = .systemFont(ofSize: 12, weight: .semibold)
+        descriptionLabel.text = "KC인증 아인스 GV900 고급 직수 언더싱크 정수기 대용량정수필터 자가 설치세트"
+        descriptionLabel.font = .systemFont(ofSize: 14, weight: .bold)
         descriptionLabel.textColor = mainColor
         
         priceLabel.text = "185,000"
-        priceLabel.font = .systemFont(ofSize: 15, weight: .bold)
-        priceLabel.textColor = mainColor
+        priceLabel.font = .systemFont(ofSize: 15, weight: .heavy)
+        priceLabel.textColor = mainOpacityColor
+        
         
         discountPriceLabel.text = "130,000"
-        discountPriceLabel.font = .systemFont(ofSize: 15, weight: .bold)
+        discountPriceLabel.font = .systemFont(ofSize: 15, weight: .heavy)
         discountPriceLabel.textColor = mainColor
         
         
         leftButton.tintColor = mainColor
+//        leftButton.setTitle("바로 구매", for: .normal)
+        leftButton.titleLabel?.font = UIFont.systemFont(ofSize: 12, weight: .heavy)
         leftButton.layer.borderWidth = 3
         leftButton.layer.borderColor = mainColor.cgColor
-        leftButton.layer.cornerRadius = 25
+        leftButton.layer.cornerRadius = 20
+        leftButton.clipsToBounds = true
+        
         
         
         
         rightButton.tintColor = .white
+//        rightButton.setTitle("포탈 접속", for: .normal)
+        rightButton.setTitleColor(mainColor, for: .normal)
+        
         rightButton.layer.borderWidth = 3
-        rightButton.layer.borderColor = mainColor.cgColor
-        rightButton.layer.cornerRadius = 25
+        rightButton.layer.borderColor = mainOpacityColor.cgColor
+        rightButton.layer.cornerRadius = 20
+        rightButton.layer.masksToBounds = true
         
     }
     

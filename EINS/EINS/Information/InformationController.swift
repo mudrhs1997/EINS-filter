@@ -15,7 +15,7 @@ class InformationController: UIViewController {
         informationModel.append([
             InformationModel(leftImage: "questionmark.circle", mainText: "자주 묻는 질문", chevronImage: "chevron.right"),
             InformationModel(leftImage: "phone.fill", mainText: "담당자 전화 연결", chevronImage: "chevron.right"),
-            InformationModel(leftImage: "phone.fill", mainText: "설정", chevronImage: "chevron.right")]
+            InformationModel(leftImage: "gear", mainText: "설정", chevronImage: "chevron.right")]
         )
     }
     
